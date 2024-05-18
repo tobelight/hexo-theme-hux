@@ -1,6 +1,6 @@
 
 # html lang
-language: en
+language: cn
 
 # main menu navigation
 menu:
@@ -10,10 +10,10 @@ menu:
   Archives: /archives
   # Categories: /categories
 
-header-img: /img/home-bg.jpg
+header-img: /img/home-bg.png
 
-sidebar-avatar: /images/avatar.jpg
-sidebar-about-description: 日拱一卒，功不唐捐
+sidebar-avatar: /images/avatar.png
+sidebar-about-description: 絶滅危惧種を食べよう！
 
 # Set rss to false to disable feed link.
 # Leave rss as blank to use site's feed link, and install hexo-generator-feed: `npm install hexo-generator-feed --save`.
