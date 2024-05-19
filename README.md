@@ -8,3 +8,4 @@
 ## Change Log
 
 1. 增加 `<!--more-->` 文章摘要支持
+2. 配置评论系统为 [giscus](https://github.com/giscus/giscus)

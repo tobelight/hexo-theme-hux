@@ -53,23 +53,12 @@ friends:
 # MathJax rendering for layout:page (e.g. post preview)
 page-mathjax: false
 
-# Gitalk
-# Demo: https://gitalk.github.io
-gitalk:
-  enable: false
-  github_id:   # Github repo owner
-  repo:
-  client_id:
-  client_secret:
-  admin_user:   # GitHub repo owner and collaborators, only these guys can initialize github issues
-  distraction_free_mode: true # Facebook-like distraction free mode
-  # By default, Gitalk will create a corresponding github issue for your every single page automatically when the logined user is belong to the admin users.
-  # You can create it manually by setting this option to true.
-  create_issue_manually: true
-  # Gitalk's display language depends on user's browser or system environment
-  # If you want everyone visiting your site to see a uniform language, you can set a force language value
-  # Available values: en, es-ES, fr, ru, zh-CN, zh-TW
-  language: zh-CN
+# giscus
+# https://github.com/giscus/giscus
+giscus:
+  enable: true
+  repo: tobelight/tobelight.github.io
+  repo_id: R_kgDOL9QVNg
 
 # Code Highlight theme
 # Available value:
@@ -137,5 +126,5 @@ reward_settings:
   comment: 如果这篇文章对你有帮助，那么不妨？
 
 reward:
-  # wechatpay: /images/wechatpay.png | 微信
-  # alipay: /images/alipay.png | 支付宝
+  wechatpay: /img/fadian-x.jpg
+  alipay: /img/fadian-x.jpg
