@@ -73,20 +73,17 @@ highlight_theme: normal
 busuanzi_count:
   enable: true
   total_visitors: true
-  total_visitors_icon: user
   total_views: true
-  total_views_icon: eye
   post_views: true
-  post_views_icon: eye
 
 # Baidu Analytics ID
 baidu_analytics:
-  tracking_id: G-N1MYYTXMZR
+  tracking_id: 
   localhost_ignored: true
 
 # Google Analytics
 google_analytics:
- tracking_id:
+ tracking_id: G-N1MYYTXMZR
  localhost_ignored: true
 
 # Creative Commons 4.0 International License.
