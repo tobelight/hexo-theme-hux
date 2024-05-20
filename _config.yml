@@ -18,7 +18,7 @@ sidebar-about-description: 絶滅危惧種を食べよう！
 # Set rss to false to disable feed link.
 # Leave rss as blank to use site's feed link, and install hexo-generator-feed: `npm install hexo-generator-feed --save`.
 # Set rss to specific value if you have burned your feed already.
-RSS:
+RSS: true
 
 social:
   # GitHub: https://github.com/yourname || github
@@ -71,35 +71,18 @@ highlight_theme: normal
 # Get more information on http://ibruce.info/2015/04/04/busuanzi
 # todo
 busuanzi_count:
-  enable: false
+  enable: true
   total_visitors: true
   total_visitors_icon: user
   total_views: true
   total_views_icon: eye
-  post_views: false
+  post_views: true
   post_views_icon: eye
-
-# Show number of visitors to each article.
-# You can visit https://leancloud.cn to get AppID and AppKey.
-# todo
-# leancloud_visitors:
-#   enable: true
-#   app_id: xbh9ALj1p4Tty1EOONwwD4NU-gzGzoHsz
-#   app_key: 8yJBzSbGA2fQdbVC0Oa5LXsH
-#   # Dependencies: https://github.com/theme-next/hexo-leancloud-counter-security
-#   # If you don't care about security in leancloud counter and just want to use it directly
-#   # (without hexo-leancloud-counter-security plugin), set `security` to `false`.
-#   security: true
-#   betterPerformance: false
 
 # Baidu Analytics ID
 baidu_analytics:
-  tracking_id:
+  tracking_id: G-N1MYYTXMZR
   localhost_ignored: true
-
-# Growingio Analytics ID
-# Copyright 2015-2018 GrowingIO, Inc. More info available at https://www.growingio.com
-#growingio_analytics: #your projectId
 
 # Google Analytics
 google_analytics:
