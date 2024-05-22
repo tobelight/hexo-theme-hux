@@ -6,6 +6,7 @@ language: cn
 menu:
   Home: /
   About: /about
+  Favorites: /favorites
   # Contact: /contact
   Archives: /archives
   # Categories: /categories
