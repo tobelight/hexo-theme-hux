@@ -10,3 +10,5 @@
 1. 增加 `<!--more-->` 文章摘要支持
 2. 配置评论系统为 [giscus](https://github.com/giscus/giscus)
 3. 配置文章阅读时间，阅读数量
+4. 修改 Google Verification 为 tobelight 账号下的认证
+5. 移植 Search 功能
