@@ -46,6 +46,11 @@
     <!-- Pygments Highlight CSS -->
     <%- css('css/highlight') %>
 
+    <% if (theme.search && theme.search.enable) { %>
+    <!-- Search CSS -->
+    <%- css('css/search') %>
+    <% } %>
+
     <!-- Custom Fonts -->
     <!-- <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet" type="text/css"> -->
     <!-- Hux change font-awesome CDN to qiniu -->
