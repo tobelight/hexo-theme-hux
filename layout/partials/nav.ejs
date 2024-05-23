@@ -25,6 +25,11 @@
                         <a href="<%- url_for(theme.menu[key]) %>"><%= key %></a>
                       </li>
                     <% }) %>
+                    <% if (theme.search && theme.search.enable) { %>
+                      <li class="search-icon">
+                        <a href="javascript:void(0)"><i class="fa fa-search"></i></a>
+                      </li>
+                    <% } %>
                 </ul>
             </div>
         </div>
