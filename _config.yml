@@ -141,8 +141,8 @@ reward:
   # alipay: /images/alipay.png | 支付宝
 
 # Search
-# To enable the search function, you need to install the hexo-generator-search, and set `search.path: search.json` in root config.
-# run `npm install hexo-generator-search-hux` in blog root dit.
+# To enable the search function, you need to install the hexo-generator-search-hux, and set `search.path: search.json` in root config.
+# run `npm install hexo-generator-search-hux` in blog root dir.
 # https://github.com/tobelight/hexo-generator-search-hux
 search:
-  enable: false
+  enable: true
