@@ -18,7 +18,7 @@ https://github.com/kitian616/jekyll-TeXt-theme
 					Show All
 					<sup><%= site.posts.length %></sup>
 				</a>
-        <% const _sorted_tags = site.tags.sort('length', -1) %>
+        <% const _sorted_tags = site.tags.sort('name', 1) %>
         <% _sorted_tags.forEach(tag => { %>
           <% const sort = ('0000' + (site.posts.length - tag.length)).substr(-4, 4) %>
           <a data-sort="<%= sort %>"
